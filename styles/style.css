@@ -47,6 +47,10 @@
   font-weight: bold;
 }
 
+.nav__link:hover{
+  color: #1f69c9;
+}
+
 .header__title {
   font-size: 66px;
   line-height: 76px;
@@ -84,6 +88,10 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+}
+
+.header__link:hover{
+  color: #1f69c9;
 }
 
 .header__address {
@@ -159,6 +167,10 @@
 .events__more {
   color: #2f80ed;
   text-decoration: none;
+}
+
+.events__more:hover{
+  color: #1f69c9;
 }
 
 .events__cover {
@@ -439,15 +451,11 @@ h4{
 }
 
 .footer__column_content_hours {
-  margin-right: 50px;
   margin-left: auto;
-  flex-basis: auto;
 }
 
 .footer__column_content_social {
-  margin-left: 50px;
-  margin-right: 0px;
-  flex-basis: auto;
+  margin-left: 100px;
 }
 
 .footer__logo {
@@ -472,6 +480,7 @@ h4{
 }
 
 .footer__column-heading {
+  margin: 0 0 20px;
 }
 
 .footer__column-link {
@@ -480,11 +489,17 @@ h4{
   line-height: 20px;
   text-decoration: none;
   text-align: right;
+  
+}
+
+.footer__column-link:hover{
+  color: #c1c1c1;
 }
 
 .footer__social-icon {
   height:16px;
   width:16px;
+  
 }
 
 .footer__copyright {

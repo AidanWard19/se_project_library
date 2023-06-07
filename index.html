@@ -24,19 +24,19 @@
         <nav>
           <ul class="nav__links">
           <li>
-            <a class="nav__link">Staff picks</a>
+            <a href="#staff-identifier" class="nav__link">Reader picks</a>
           </li>
           <li>
-            <a class="nav__link">Events</a>
+            <a href="#events-identifier" class="nav__link">Events</a>
           </li>
           <li>
-            <a class="nav__link">Become a member</a>
+            <a href="#membership-identifier" class="nav__link">Become a member</a>
           </li>
           <li>
-            <a class="nav__link">About</a>
+            <a href="#about-identifier" class="nav__link">About</a>
           </li>
           <li>
-            <a class="nav__link">Contacts</a>
+            <a href="#contacts-identifier" class="nav__link">Contacts</a>
           </li>
           </ul>
         </nav>
@@ -61,7 +61,7 @@
   
     <main class="content">
 
-      <section class="events">
+      <section id="events-identifier" class="events">
         <div class="events__content">
           <h2 class="events__heading">Upcoming events:</h2>
           <h3 class="events__title">
@@ -120,7 +120,7 @@
   
 
       
-      <section class="staff">
+      <section id="staff-identifier" class="staff">
         <h2 class="staff__title">Reader's picks</h2>
         <p class="staff__subtitle">That our readers love</p>
         <ul class="staff__cards">
@@ -188,7 +188,7 @@
      
 
       
-      <section class="membership">
+      <section id="membership-identifier" class="membership">
         <h2 class="membership__title">Becoming a library member is easy!</h2>
         <ul class="membership__steps">
           <li class="step">
@@ -246,7 +246,7 @@
       
 
       
-      <section class="about">
+      <section id="about-identifier" class="about">
        <h2 class="about__title">About the library</h2>
        <div class="about__circle"></div> 
         <div class="about__content">
@@ -273,25 +273,23 @@
 
     </main>
 
-    <footer class="footer">
+    <footer id="contacts-identifier" class="footer">
       <section class="footer__columns">
-        <div class="footer__column">
-          <div class="footer__logo" > <img src="images/logo_white.png" alt="Practicum logo" class="footer__logo"> </div>
-        </div>
+        <div class="footer__column footer__logo" > <img src="images/logo_white.png" alt="Practicum logo" class="footer__logo"> </div>
+        
 
-        <div class="footer__column">
-          <div class="footer__column_content_hours">
-            <h3 class = footer__column-heading>Hours</h3>
+        <div class="footer__column footer__column_content_hours">
+            <h2 class = footer__column-heading>Hours</h2>
             <ul class = footer__list>
               <li class = "footer__list-item">Weekdays: 9am - 8pm</li>
               <li class = "footer__list-item">Weekends: 10am - 6pm</li>
             </ul>
           </div>
-        </div>
+        
 
-        <div class="footer__column">
-          <div class="footer__column_content_social">
-            <h3 class = footer__column-heading>Social media</h3>
+        <div class="footer__column footer__column_content_social">
+            <h2 class = footer__column-heading>Social media</h2>
+            <ul class = footer__list>
             <li class = "footer__list-item">
               <img src="images/facebook_white.svg" alt="Facebook logo" class="footer__social-icon">
               <a href="#" class="footer__column-link"> Facebook </a>
@@ -300,8 +298,9 @@
               <img src="images/instagram_white.svg" alt="Instagram logo" class="footer__social-icon">
               <a href="#" class="footer__column-link"> Instagram </a>
             </li>
+          </ul>
           </div>
-        </div>
+        
        
       </section>
  <div class="footer__copyright"><h4>© 2023 Aidan Ward.</h4></div>
