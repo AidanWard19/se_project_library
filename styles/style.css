@@ -271,7 +271,7 @@
   color: white;
 }
 
-/* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
+
 .staff__cards{
   max-width: 760px;
   display: flex;
@@ -431,13 +431,7 @@
   box-sizing: border-box;
 }
 
-h3{
-padding-bottom: 20px;
-font-size: 16px;
-line-height: 20px;
-margin-top: 0;
-margin-bottom: 0;
-}
+
 
 h4{
   font-size: 16px;
@@ -465,7 +459,6 @@ h4{
 }
 
 .footer__list {
-  /* The code below removes the default browser styles for lists */
   list-style-type: none;
   padding: 0;
   margin: 0;
