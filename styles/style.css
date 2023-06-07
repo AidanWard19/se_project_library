@@ -401,7 +401,7 @@
   height: 495px;
   border-radius: 50%;
   position: absolute;
-  bottom: 221px;
+  top: -121px;
   left: -91px;
   
   z-index: 1;
