@@ -31,7 +31,6 @@
 }
 
 .nav__links {
-  /* Reset default list styles here */
   display: flex;
   justify-content: space-between;
   margin: 8px 0 0;
