@@ -65,6 +65,7 @@
   margin-top: 32px;
   text-align: left;
   max-width: 532px;
+  margin-bottom:0px;
 }
 
 .header__image {
@@ -248,7 +249,7 @@
 .staff {
   padding: 100px 0 140px;
   background-image: url(../images/staff_picks_background.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -277,10 +278,12 @@
   margin-top: 68px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0;
   flex-wrap: wrap;
   justify-content: space-between;
   list-style: none;
-  gap: 40px; 
+  gap: 40px;
+  padding: 0px; 
 }
 
 .card {
@@ -344,7 +347,7 @@
 }
 
 .step {
-  width: 220px;
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -371,14 +374,18 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  display: flex;
+  justify-content: start;
   
 }
 
 .about__title {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
-  position: absolute;
+  
   z-index: 3;
   max-width: 154px;
   
@@ -390,8 +397,7 @@
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 120px;
 }
 
 .about__circle {
@@ -407,12 +413,13 @@
 }
 
 .about__paragraph {
+  margin-top: 0px;
   margin-bottom: 32px;
   position: relative;
   z-index: 3;
 }
 
-.about__paragraph:nth-last-child(1){
+.about__paragraph:last-child{
   margin-bottom: 0px;
 }
 
@@ -421,20 +428,11 @@
   padding: 60px 102px 60px 80px;
   background-color: #1f1f1f;
   color: #fff;
-  overflow: hidden;
   font-size: 16px;
   line-height: 20px;
   position: relative;
-  box-sizing: border-box;
 }
 
-
-
-h4{
-  font-size: 16px;
-  line-height: 20px;
-  margin: 0;
-}
 
 .footer__columns {
   display: flex;
@@ -452,7 +450,6 @@ h4{
 .footer__logo {
   height: 21px;
   width: 116px;
-  margin-right: auto;
 }
 
 .footer__list {
@@ -471,6 +468,8 @@ h4{
 
 .footer__column-heading {
   margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__column-link {
@@ -489,9 +488,14 @@ h4{
 .footer__social-icon {
   height:16px;
   width:16px;
-  
+  margin-right: 10px;
 }
 
 .footer__copyright {
   padding-top: 108px;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400px;
 }
