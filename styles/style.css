@@ -449,7 +449,7 @@
 
 .footer__logo {
   height: 21px;
-  width: 116px;
+  width: 116p
 }
 
 .footer__list {
@@ -459,7 +459,7 @@
 }
 
 .footer__list-item {
-  list-style: none;
+  list-style: non
 }
 
 .footer__list-item:nth-last-child(1){
@@ -497,5 +497,5 @@
   line-height: 20px;
   margin-top: 0;
   margin-bottom: 0;
-  font-weight: 400px;
+  font-weight: 400;
 }
