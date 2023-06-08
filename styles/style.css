@@ -459,7 +459,7 @@
 }
 
 .footer__list-item {
-  list-style: non
+  list-style: none;
 }
 
 .footer__list-item:nth-last-child(1){
