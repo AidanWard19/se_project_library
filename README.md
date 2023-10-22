@@ -1,3 +1,5 @@
+https://aidanward19.github.io/se_project_library/
+
 # Project 1: Practicum Library
 
 The Practicum Library webpage is the first project in the Software Engineer program at Practicum. It was created using HTML and CSS, based on a design brief.
